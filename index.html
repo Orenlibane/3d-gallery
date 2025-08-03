@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Artisan Gallery</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    :root{
+      --primary:#ff5f6d;
+      --primary-dark:#e04856;
+      --bg:#f7f8fb;
+      --card-bg:#fff;
+      --radius:12px;
+      --shadow:0 4px 14px rgba(0,0,0,.08);
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family:"Inter",sans-serif;
+      background:var(--bg);
+      color:#222;
+      display:flex;
+      flex-direction:column;
+      min-height:100vh;
+      -webkit-font-smoothing:antialiased;
+    }
+
+    /* Cute header & footer */
+    .site-header{
+      background:var(--primary);
+      color:#fff;
+      padding:18px 24px;
+      text-align:center;
+      box-shadow:var(--shadow);
+    }
+    .site-header h1{font-size:1.5rem;font-weight:700;letter-spacing:.4px}
+
+    .site-footer{
+      background:#fafafa;
+      border-top:1px solid #e5e5e5;
+      text-align:center;
+      padding:16px;
+      font-size:.85rem;
+      color:#666;
+      margin-top:auto;
+    }
+
+    /* Container & toolbar */
+    .container{max-width:1280px;margin:0 auto;padding:32px 24px;flex:1}
+    .tools{
+      display:flex;
+      flex-wrap:wrap;
+      gap:16px;
+      margin-bottom:32px;
+      align-items:center
+    }
+    .search-wrapper{flex:1 1 240px;position:relative}
+    .search-wrapper input{
+      width:100%;
+      padding:12px 16px 12px 44px;
+      border-radius:var(--radius);
+      border:1px solid #ccc;
+      font-size:15px;
+      transition:border-color .2s
+    }
+    .search-wrapper input:focus{border-color:var(--primary)}
+    .search-wrapper svg{
+      position:absolute;
+      left:14px;
+      top:50%;
+      transform:translateY(-50%);
+      fill:#888;
+      pointer-events:none
+    }
+    select{
+      min-width:180px;
+      padding:12px 14px;
+      border-radius:var(--radius);
+      border:1px solid #ccc;
+      background:#fff;
+      font-size:15px
+    }
+    button.primary{
+      padding:12px 22px;
+      background:var(--primary);
+      color:#fff;
+      border:none;
+      border-radius:var(--radius);
+      cursor:pointer;
+      font-size:15px;
+      font-weight:600;
+      transition:background .25s
+    }
+    button.primary:hover{background:var(--primary-dark)}
+
+    /* Gallery */
+    .gallery{
+      display:grid;
+      grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
+      gap:24px
+    }
+    .card{
+      background:var(--card-bg);
+      border-radius:var(--radius);
+      overflow:hidden;
+      box-shadow:var(--shadow);
+      cursor:pointer;
+      transition:transform .25s,box-shadow .25s
+    }
+    .card:hover{transform:translateY(-6px);box-shadow:0 8px 22px rgba(0,0,0,.15)}
+    .card img{width:100%;height:200px;object-fit:cover}
+    .card h3{padding:14px 16px 18px;font-size:1rem;font-weight:600;text-align:center}
+
+    /* Modal */
+    .modal{
+      position:fixed;
+      inset:0;
+      display:grid;
+      place-items:center;
+      background:rgba(0,0,0,.6);
+      opacity:0;
+      visibility:hidden;
+      transition:opacity .3s;
+      z-index:1000
+    }
+    .modal.active{opacity:1;visibility:visible}
+    .modal-content{
+      background:var(--card-bg);
+      width:92%;
+      max-width:640px;
+      border-radius:var(--radius);
+      padding:32px 28px;
+      position:relative;
+      box-shadow:0 12px 28px rgba(0,0,0,.25);
+      animation:zoomIn .35s ease
+    }
+    @keyframes zoomIn{from{transform:scale(.88);opacity:0}to{transform:scale(1);opacity:1}}
+    .modal-close{
+      position:absolute;
+      top:16px;
+      right:20px;
+      background:none;
+      border:none;
+      font-size:1.6rem;
+      cursor:pointer;
+      color:#888
+    }
+    .modal-close:hover{color:#444}
+    .modal-content img{width:100%;border-radius:calc(var(--radius) - 2px);margin-bottom:20px}
+    .tag{
+      display:inline-block;
+      background:#ececec;
+      padding:3px 8px;
+      border-radius:16px;
+      margin:4px 4px 0 0;
+      font-size:.75rem
+    }
+
+    /* Loader */
+    .loader{
+      text-align:center;
+      margin-top:60px;
+      font-size:1rem;
+      color:#666;
+      animation:pulse 1.5s infinite
+    }
+    @keyframes pulse{0%{opacity:.4}50%{opacity:1}100%{opacity:.4}}
+  </style>
+</head>
+<body>
+  <header class="site-header"><h1>🖼️ Artisan Mini-Gallery</h1></header>
+
+  <main class="container">
+    <section class="tools">
+      <div class="search-wrapper">
+        <svg width="18" height="18" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+        <input id="searchInput" placeholder="Search artworks…" />
+      </div>
+
+      <select id="tagFilter" multiple></select>
+
+      <button id="allBtn" class="primary" style="background:#888">All</button>
+      <button id="addBtn" class="primary">Add Item</button>
+    </section>
+
+    <section id="gallery" class="gallery"></section>
+    <div id="loader" class="loader">Loading…</div>
+  </main>
+
+  <!-- View Modal -->
+  <div id="viewModal" class="modal">
+    <div class="modal-content">
+      <button class="modal-close" onclick="closeModal('viewModal')">&times;</button>
+      <img id="viewImage" />
+      <h2 id="viewTitle"></h2>
+      <p id="viewDesc" style="margin:12px 0 18px;line-height:1.55"></p>
+      <div id="viewTags"></div>
+    </div>
+  </div>
+
+  <!-- Form Modal -->
+  <div id="formModal" class="modal">
+    <div class="modal-content">
+      <button class="modal-close" onclick="closeModal('formModal')">&times;</button>
+      <h2 id="formTitle">Add Item</h2>
+
+      <form id="itemForm">
+        <input id="itemIndex" type="hidden" />
+
+        <label>Title
+          <input id="itemTitle" required />
+        </label>
+
+        <label>Image URL
+          <input id="itemImage" type="url" required />
+        </label>
+
+        <label>Description
+          <textarea id="itemDesc" rows="3" required></textarea>
+        </label>
+
+        <label>Tags (comma-separated)
+          <input id="itemTags" />
+        </label>
+
+        <button class="primary">Save</button>
+      </form>
+    </div>
+  </div>
+
+  <footer class="site-footer">Made with ❤️ & Vanilla JS · © 2025 Mini Gallery</footer>
+
+<script type="module">
+/* ---------------- Config ---------------- */
+const API_ENDPOINT = '/items';   // Express server endpoint
+
+/* ---------------- State ---------------- */
+let data = [];
+const $ = id => document.getElementById(id);
+const dom = {
+  gallery: $('gallery'),
+  search : $('searchInput'),
+  tag    : $('tagFilter'),
+  add    : $('addBtn'),
+  all    : $('allBtn'),
+  loader : $('loader')
+};
+let currentIndex = null;
+
+/* ---------------- Init ---------------- */
+document.addEventListener('DOMContentLoaded', loadData);
+
+async function loadData() {
+  try {
+    const resp = await fetch(API_ENDPOINT, { cache: 'no-cache' });
+    if (!resp.ok) throw new Error(resp.status);
+    data = await resp.json();
+  } catch (err) {
+    console.error('API failed, using sample data', err);
+    data = [{
+      title      : 'Goblin Warrior Chibi',
+      image_url  : 'https://makerworld.bblmw.com/makerworld/model/US82c31ba97b0bc7/design/2025-08-01_cde03bc675ba8.png?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp',
+      description: 'A cute chibi goblin warrior miniature.',
+      tags       : ['goblin','warrior','chibi','miniature']
+    }];
+  }
+  initUI();
+}
+
+function initUI() {
+  dom.loader.style.display = 'none';
+  renderTags();
+  renderGallery();
+
+  dom.search.addEventListener('input', renderGallery);
+  dom.tag.addEventListener('change', renderGallery);
+  dom.add.addEventListener('click', () => openForm());
+  dom.all.addEventListener('click', resetFilters);
+  $('itemForm').addEventListener('submit', saveItem);
+}
+
+/* ---------------- Rendering ---------------- */
+function renderTags() {
+  const allTags = [...new Set(data.flatMap(i => i.tags || []))].sort();
+  dom.tag.innerHTML = '';
+  allTags.forEach(t => {
+    const opt = document.createElement('option');
+    opt.value = t;
+    opt.textContent = t;
+    dom.tag.appendChild(opt);
+  });
+}
+
+function renderGallery() {
+  const q   = dom.search.value.toLowerCase();
+  const sel = [...dom.tag.selectedOptions].map(o => o.value);
+
+  dom.gallery.innerHTML = '';
+
+  data.forEach((item, idx) => {
+    if (q && !item.title.toLowerCase().includes(q)) return;
+    if (sel.length && !sel.every(t => item.tags.includes(t))) return;
+
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.innerHTML = `<img src="${item.image_url}" alt="${item.title}"><h3>${item.title}</h3>`;
+    card.onclick = () => openView(idx);
+    dom.gallery.appendChild(card);
+  });
+}
+
+/* ---------------- Filters ---------------- */
+function resetFilters() {
+  dom.search.value = '';
+  [...dom.tag.options].forEach(o => o.selected = false);
+  renderGallery();
+}
+
+/* ---------------- Modals ---------------- */
+function openModal(id)  { $(id).classList.add('active'); }
+function closeModal(id) { $(id).classList.remove('active'); }
+window.closeModal = closeModal;              // expose for inline onclick
+window.openModal  = openModal;
+
+/* View Modal */
+function openView(idx) {
+  currentIndex = idx;
+  const it = data[idx];
+  $('viewImage').src   = it.image_url;
+  $('viewTitle').textContent = it.title;
+  $('viewDesc').textContent  = it.description;
+  $('viewTags').innerHTML    = (it.tags || []).map(t => `<span class=\"tag\">${t}</span>`).join('');
+  openModal('viewModal');
+}
+
+/* ---------------- CRUD (client-side only) ---------------- */
+function openForm(it = {}, idx = null) {
+  $('formTitle').textContent = idx === null ? 'Add Item' : 'Edit Item';
+  $('itemIndex').value = idx ?? '';
+  $('itemTitle').value = it.title || '';
+  $('itemImage').value = it.image_url || '';
+  $('itemDesc').value  = it.description || '';
+  $('itemTags').value  = it.tags ? it.tags.join(', ') : '';
+  openModal('formModal');
+}
+
+function saveItem(e) {
+  e.preventDefault();
+  const idx = $('itemIndex').value;
+
+  const newItem = {
+    title      : $('itemTitle').value.trim(),
+    image_url  : $('itemImage').value.trim(),
+    description: $('itemDesc').value.trim(),
+    tags       : $('itemTags').value.split(',')
+                    .map(t => t.trim()).filter(Boolean)
+  };
+
+  if (idx === '') data.push(newItem);
+  else            data[idx] = newItem;
+
+  closeModal('formModal');
+  renderTags();
+  renderGallery();
+}
+</script>
+</body>
+</html>
