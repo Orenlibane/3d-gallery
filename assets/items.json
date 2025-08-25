@@ -40,16 +40,6 @@
     "tags": ["star wars", "baby yoda", "grogu", "figurine", "miniature", "cute", "sci-fi"]
   },
   {
-    "title": "Chibi Stitch Figurine",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/UScfa46fd684f573/design/2025-06-14_d9b06ca4095448.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["disney", "lilo and stitch", "stitch", "chibi", "figurine", "cute", "alien"]
-  },
-  {
-    "title": "Baby Groot",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/USbbb1dc1711ca49/design/2025-06-02_b1cda222dbc928.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["marvel", "guardians of the galaxy", "groot", "baby groot", "figurine", "cute", "planter"]
-  },
-  {
     "title": "Dobby - Harry Potter",
     "image_url": "https://makerworld.bblmw.com/makerworld/model/US7a8885471e9b51/design/2025-06-02_187a10ba59212.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
     "tags": ["harry potter", "dobby", "elf", "figurine", "fantasy", "statue"]
@@ -120,21 +110,6 @@
     "tags": ["rose", "flower", "sci-fi", "tech", "mechanical", "decor", "steampunk"]
   },
   {
-    "title": "Mecha ivysaur",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/USd1f7cbe14e3cd6/design/2025-07-29_6fdad249af7048.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["pokemon", "ivysaur", "mecha", "robot", "figurine", "sci-fi"]
-  },
-  {
-    "title": "Mecha bulbasaur",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/USc4b11e72b3ca6d/design/2025-07-28_6dad92bb4e8a38.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["pokemon", "bulbasaur", "mecha", "robot", "figurine", "sci-fi"]
-  },
-  {
-    "title": "Mecha Charizard",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US74d4520cfb44ac/design/2025-07-27_71426d0c2896d.jpeg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["pokemon", "charizard", "mecha", "robot", "dragon", "figurine", "sci-fi"]
-  },
-  {
     "title": "shield hero: Filo - Filolial mode",
     "image_url": "https://makerworld.bblmw.com/makerworld/model/US2d4aaacc140e2e/design/2025-07-26_7a3b9d1f702de8.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
     "tags": ["anime", "the rising of the shield hero", "filo", "figurine", "bird", "fantasy"]
@@ -170,11 +145,6 @@
     "tags": ["harry potter", "voldemort", "tablet", "plaque", "wall art", "fantasy", "decor"]
   },
   {
-    "title": "Chaos Marine highly detailed",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US7c62796db86fd/design/2025-07-19_b67669cfb10b3.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["warhammer", "40k", "chaos marine", "space marine", "miniature", "figurine", "sci-fi", "wargaming"]
-  },
-  {
     "title": "My Kids Party: Duffy Duck Mage",
     "image_url": "https://makerworld.bblmw.com/makerworld/model/US521bd9f6fb63df/design/2025-07-19_497b310437eef8.jpeg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
     "tags": ["looney tunes", "daffy duck", "mage", "wizard", "figurine", "cartoon", "fantasy"]
@@ -185,34 +155,9 @@
     "tags": ["d&d", "orc", "shaman", "tablet", "plaque", "wall art", "fantasy", "decor"]
   },
   {
-    "title": "Heroes Tablet - future Batman",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/UScdccfaa45ada41/design/2025-07-19_631cb431f3d38.jpeg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["dc comics", "batman", "tablet", "plaque", "wall art", "superhero", "decor", "batman beyond"]
-  },
-  {
-    "title": "Heroes Tablets: The Silver Surfer",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/USef324f2ddc9e4a/design/2025-07-19_e740a3182a6e28.jpeg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["marvel", "silver surfer", "tablet", "plaque", "wall art", "superhero", "decor"]
-  },
-  {
     "title": "Heroes Tablets: Spawn",
     "image_url": "https://makerworld.bblmw.com/makerworld/model/USd321bb3a693199/design/2025-07-19_9f309c901d1f98.jpeg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
     "tags": ["spawn", "image comics", "tablet", "plaque", "wall art", "anti-hero", "decor"]
-  },
-  {
-    "title": "Heroes Tablets: Goku",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US753d9418ee6b84/design/2025-07-19_b34bec33331a9.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["dragon ball", "goku", "anime", "tablet", "plaque", "wall art", "decor"]
-  },
-  {
-    "title": "Villains Tablets: Galactus",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US37edb2fa8a7499/design/2025-07-19_d5597853e22728.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["marvel", "galactus", "villain", "tablet", "plaque", "wall art", "decor"]
-  },
-  {
-    "title": "Iron Man 3d sculpt",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/USbf522748d921c5/design/2025-07-18_c5a1a59ba71158.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["marvel", "iron man", "avengers", "sculpture", "figurine", "superhero", "statue"]
   },
   {
     "title": "DnD monsters: The Grand Dragon",
@@ -353,16 +298,6 @@
     "title": "Chibis United: Gangster Bunny",
     "image_url": "https://makerworld.bblmw.com/makerworld/model/US72ab201439dae7/design/2025-07-05_d7b7ffcfca729.jpeg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
     "tags": ["chibi", "animal", "bunny", "rabbit", "gangster", "figurine", "cute"]
-  },
-  {
-    "title": "Magneto Lapupu",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US30fd06780c6184/design/2025-07-05_c392b1c87c5568.jpeg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["lapupu", "magneto", "marvel", "x-men", "cute", "figurine", "pop culture"]
-  },
-  {
-    "title": "buffed / hulk Lapupu",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US3b2afb2585a7ac/design/2025-07-05_0634b8840bb8a.jpeg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["lapupu", "hulk", "marvel", "avengers", "cute", "figurine", "pop culture"]
   },
   {
     "title": "Robots: Insect both type Moth",
@@ -725,16 +660,6 @@
     "tags": ["bust", "demon", "scholar", "fantasy", "horror", "sculpture"]
   },
   {
-    "title": "Stitch Kamehameha dbz",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/USe31885e9f75c8b/design/2025-06-17_42ffea7d57c71.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["stitch", "dragon ball", "kamehameha", "disney", "anime", "crossover", "figurine"]
-  },
-  {
-    "title": "Chibis United: Stitch Go super Saiyan",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/USd0ec3cd17de202/design/2025-06-17_c689a9d01b778.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["chibi", "stitch", "dragon ball", "super saiyan", "disney", "anime", "crossover", "figurine"]
-  },
-  {
     "title": "Busts: Super Sayia stone bust",
     "image_url": "https://makerworld.bblmw.com/makerworld/model/US61909d04ccd1f8/design/2025-06-17_18c120b480d7e8.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
     "tags": ["bust", "dragon ball", "super saiyan", "goku", "anime", "sculpture", "stone"]
@@ -800,21 +725,6 @@
     "tags": ["chibi", "zeus", "greek", "god", "mythology", "figurine", "cute"]
   },
   {
-    "title": "Chibi United: Stitch lord / Darth Vader",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/USef0e1d1457fded/design/2025-06-14_c3c41a5d3b6be.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["chibi", "stitch", "darth vader", "star wars", "disney", "crossover", "figurine", "cute"]
-  },
-  {
-    "title": "Busts: Family guy peter Darth Vader",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US1a544332ec991/design/2025-06-13_5b6fa44c985f6.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["bust", "family guy", "peter griffin", "darth vader", "star wars", "crossover", "funny", "sculpture"]
-  },
-  {
-    "title": "Busts: Space Marine Darth Vader",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US649f9a263e4f5b/design/2025-06-13_3fff1237764af8.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["bust", "space marine", "darth vader", "star wars", "warhammer", "crossover", "sci-fi", "sculpture"]
-  },
-  {
     "title": "Dragons: Royal Dragon",
     "image_url": "https://makerworld.bblmw.com/makerworld/model/US722e74cab4ec45/design/2025-06-13_914c75169e743.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
     "tags": ["dragon", "fantasy", "figurine", "statue", "creature", "royal"]
@@ -843,11 +753,6 @@
     "title": "Overlord",
     "image_url": "https://makerworld.bblmw.com/makerworld/model/USefa49edbc55823/design/2025-06-13_cce44236943fb.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
     "tags": ["overlord", "ainz ooal gown", "anime", "figurine", "statue", "lich", "fantasy"]
-  },
-  {
-    "title": "Chibis United: apocalypse",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/USbb9b0f0452b319/design/2025-06-13_6faa73e36e8d9.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["chibi", "apocalypse", "marvel", "x-men", "villain", "figurine", "cute"]
   },
   {
     "title": "Rhino Dancer",
@@ -1315,21 +1220,6 @@
     "tags": ["chibi", "warhammer", "tzeentch", "demon", "herald", "figurine", "fantasy", "sci-fi"]
   },
   {
-    "title": "Stitch loves note",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US7c8f10bf4ba6c7/design/2025-05-22_85befcccfe62d.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["stitch", "disney", "love", "valentines", "cute", "note holder", "figurine"]
-  },
-  {
-    "title": "Stitch Love and Kiss",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US77ea173e050d3a/design/2025-05-22_b74e1742122298.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["stitch", "disney", "love", "valentines", "cute", "kiss", "figurine"]
-  },
-  {
-    "title": "Robots: NidoKing bot",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US2f278ccffb43fe/design/2025-05-21_6bd897ef17fb88.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["robot", "mecha", "pokemon", "nidoking", "figurine", "sci-fi"]
-  },
-  {
     "title": "DnD - The ultimate knight Miniature",
     "image_url": "https://makerworld.bblmw.com/makerworld/model/US1458a88519868a/design/2025-05-21_a126514e30639.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
     "tags": ["d&d", "knight", "warrior", "miniature", "figurine", "fantasy", "paladin"]
@@ -1338,11 +1228,6 @@
     "title": "Chibis United: The Death Jester",
     "image_url": "https://makerworld.bblmw.com/makerworld/model/US43b6fc630323a5/design/2025-05-20_d8253b093112e.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
     "tags": ["chibi", "warhammer", "40k", "eldar", "harlequin", "death jester", "figurine", "sci-fi"]
-  },
-  {
-    "title": "Busts: Magento",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US237f7289a3ee02/design/2025-05-20_a6b1d8319681c8.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["bust", "magneto", "marvel", "x-men", "villain", "sculpture"]
   },
   {
     "title": "Dripping / Melting King Flower",
@@ -1355,16 +1240,6 @@
     "tags": ["unicorn", "peace", "cute", "fantasy", "figurine", "stylish"]
   },
   {
-    "title": "Robots: Mecha Pica",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US366d6a54281dca/design/2025-05-20_c31da979225fc.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["robot", "mecha", "pokemon", "pikachu", "figurine", "sci-fi"]
-  },
-  {
-    "title": "Robots: pokemon - Mega Mecha Darkrai",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US731faf67ec5134/design/2025-05-18_ebcf0f90731d88.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["robot", "mecha", "pokemon", "darkrai", "figurine", "sci-fi"]
-  },
-  {
     "title": "Dripping skeletal Rose",
     "image_url": "https://makerworld.bblmw.com/makerworld/model/USbe35d223862a10/design/2025-05-17_cf57d029516078.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
     "tags": ["rose", "flower", "skull", "skeleton", "melting", "gothic", "decor"]
@@ -1375,54 +1250,9 @@
     "tags": ["family", "statue", "decor", "love", "abstract", "art"]
   },
   {
-    "title": "Robots: Mega Mecha Gengar!",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US1db24aa23175b1/design/2025-05-17_6aec0b05018ec.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["robot", "mecha", "pokemon", "gengar", "figurine", "sci-fi"]
-  },
-  {
-    "title": "Hulk Bust V2",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US2611e9097cbd1/design/2025-05-16_b73cf2bd4fa288.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["bust", "hulk", "marvel", "avengers", "superhero", "sculpture"]
-  },
-  {
-    "title": "Hulk Bust",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/USce87e92d6f46b5/design/2025-05-16_1c317e38a7416.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["bust", "hulk", "marvel", "avengers", "superhero", "sculpture"]
-  },
-  {
     "title": "Chibis United: Maggot Kin",
     "image_url": "https://makerworld.bblmw.com/makerworld/model/US93359c929e3dfc/design/2025-05-16_9c9cec0bd8a588.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
     "tags": ["chibi", "warhammer", "nurgle", "maggotkin", "demon", "figurine", "fantasy"]
-  },
-  {
-    "title": "Stitch Age 4  / Birthday Topper",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/USf7cf069dfec7d4/design/2025-05-16_bb5a2636183948.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["cake topper", "birthday", "stitch", "disney", "cute", "party"]
-  },
-  {
-    "title": "Stitch Age 6 / Birthday Topper",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US8c29dbd52a0f32/design/2025-05-16_6b7875a65c7b5.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["cake topper", "birthday", "stitch", "disney", "cute", "party"]
-  },
-  {
-    "title": "Stitch Age 5 / Birthday Topper",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/USf2765f5c6ad8ab/design/2025-05-16_bef26131627f7.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["cake topper", "birthday", "stitch", "disney", "cute", "party"]
-  },
-  {
-    "title": "Stitch Age 5 / Birthday Topper",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/USf80076d9664453/design/2025-05-16_da364e68fe7aa.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["cake topper", "birthday", "stitch", "disney", "cute", "party"]
-  },
-  {
-    "title": "Stitch Age 7 / Birthday Topper - V2",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/USba7592ef486c38/design/2025-05-16_07b4cfb6db7f08.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["cake topper", "birthday", "stitch", "disney", "cute", "party"]
-  },
-  {
-    "title": "Stitch Age 7 / Birthday Topper",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US275176ce451267/design/2025-05-16_6301ee2dda7dc.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["cake topper", "birthday", "stitch", "disney", "cute", "party"]
   },
   {
     "title": "Melting heart flowers set",
@@ -1478,11 +1308,6 @@
     "title": "DnD iron Golem",
     "image_url": "https://makerworld.bblmw.com/makerworld/model/USad71c24859792f/design/2025-05-13_40a2c25d815f98.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
     "tags": ["d&d", "golem", "iron golem", "monster", "figurine", "miniature", "fantasy"]
-  },
-  {
-    "title": "Bust: IronMan",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/USd61ee1291d6134/design/2025-05-13_40d08f43ea60c8.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["bust", "iron man", "marvel", "avengers", "superhero", "sculpture"]
   },
   {
     "title": "Final Fantasy: Tonberry",
@@ -2285,51 +2110,6 @@
     "tags": ["gnome", "garden", "set", "figurine", "fantasy", "cute"]
   },
   {
-    "title": "Loving Stitch for valentine's day",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/USfc188a85f40d93/design/2025-01-19_659417e36681.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["stitch", "lilo and stitch", "valentine's day", "love", "cute", "fan art", "figurine"]
-  },
-  {
-    "title": "Loving Minion for valentine's day",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US1857c5cc8c246c/design/2025-01-19_6a37d5276862a.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["minion", "despicable me", "valentine's day", "love", "cute", "fan art", "figurine"]
-  },
-  {
-    "title": "Loving pikachu - Pokemon for valentine's day",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US493518a3543baa/design/2025-01-19_961577f8c5a88.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["pikachu", "pokemon", "valentine's day", "love", "cute", "fan art", "gaming", "figurine"]
-  },
-  {
-    "title": "Loving Squirtle - Pokemon for valentine's day",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US5ae9b9486e84ed/design/2025-01-19_c1a1f3ed84252.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["squirtle", "pokemon", "valentine's day", "love", "cute", "fan art", "gaming", "figurine"]
-  },
-  {
-    "title": "Chinese-Inspired Dragon Costume Stitch V2",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US6b8068a2c1a525/design/2025-01-18_ca0444775fe7b.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["stitch", "lilo and stitch", "dragon", "costume", "chinese", "lunar new year", "cute", "figurine"]
-  },
-  {
-    "title": "Chinese-Inspired Costume Stitch V1",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US93eab3783b2414/design/2025-01-18_0234d1162fb5f.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["stitch", "lilo and stitch", "costume", "chinese", "lunar new year", "cute", "figurine"]
-  },
-  {
-    "title": "Stitch: The Superhero Savior",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US273e26d43eab4b/design/2025-01-18_1ebb205ea2edc.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["stitch", "lilo and stitch", "superhero", "superman", "costume", "cute", "figurine"]
-  },
-  {
-    "title": "Elegant Chinese Dragon Inspired Costume Stitch",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US51e9882d6f3555/design/2025-01-18_e11b74d49b906.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["stitch", "lilo and stitch", "dragon", "costume", "chinese", "lunar new year", "elegant", "figurine"]
-  },
-  {
-    "title": "Birthday stitch",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/USec29d43d648682/design/2025-01-18_7cd4c1048f1c3.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["stitch", "lilo and stitch", "birthday", "cake", "cute", "figurine"]
-  },
-  {
     "title": "Chibi United: Gods of egypt Pack 1",
     "image_url": "https://makerworld.bblmw.com/makerworld/model/US4a27d626735964/design/2025-01-18_b19b63aaafefe.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
     "tags": ["chibi", "chibis united", "egyptian", "gods", "anubis", "ra", "set", "mythology", "figurine"]
@@ -2393,16 +2173,6 @@
     "title": "Loving Touch - love & valentine's day Statue",
     "image_url": "https://makerworld.bblmw.com/makerworld/model/USf3b18b9b33bc2b/design/2025-01-14_a8a31210dac3c8.jpeg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
     "tags": ["love", "valentine's day", "couple", "statue", "decor", "artistic"]
-  },
-  {
-    "title": "Chibi United: DBZ - super saiyan",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US9911eb656d37d7/design/2025-01-17_b2fd15c356bb9.webp?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["chibi", "chibis united", "dbz", "dragon ball z", "goku", "super saiyan", "anime", "fan art", "figurine"]
-  },
-  {
-    "title": "Chibi United: DBZ - Gohan",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/USa790b94bae0886/design/2025-01-11_72fab044c7f85.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["chibi", "chibis united", "dbz", "dragon ball z", "gohan", "anime", "fan art", "figurine"]
   },
   {
     "title": "Boy hug Puppy",
@@ -2515,11 +2285,6 @@
     "tags": ["chibi", "chibis united", "dragon", "cow", "cute", "fantasy", "figurine"]
   },
   {
-    "title": "Iron Morty",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US2005f7f25e3334/design/2024-12-30_4f105011cf843.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["iron man", "morty", "rick and morty", "marvel", "crossover", "fan art", "figurine"]
-  },
-  {
     "title": "chinese gardener",
     "image_url": "https://makerworld.bblmw.com/makerworld/model/US98c75a363ea757/design/2024-12-30_ac1244542d739.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
     "tags": ["gardener", "chinese", "asian", "statue", "decor", "bonsai", "figurine"]
@@ -2580,16 +2345,6 @@
     "tags": ["chibi", "chibis united", "undead", "warlock", "zombie", "fantasy", "halloween", "figurine"]
   },
   {
-    "title": "Scary stitch",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US865bd8682ab2a7/design/2024-12-26_d6ffb0884273b.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["stitch", "lilo and stitch", "scary", "horror", "monster", "halloween", "figurine"]
-  },
-  {
-    "title": "Stitch Jacket",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US8708f0f6139b89/design/2024-12-26_05b0a0d0374b4.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["stitch", "lilo and stitch", "jacket", "cool", "cute", "figurine"]
-  },
-  {
     "title": "Mother Love - Plant",
     "image_url": "https://makerworld.bblmw.com/makerworld/model/US9ede2105a3d54f/design/2024-12-27_89a209333e4b1.png?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
     "tags": ["mother", "love", "plant", "planter", "statue", "artistic", "decor", "family"]
@@ -2608,16 +2363,6 @@
     "title": "Floating Beholder",
     "image_url": "https://makerworld.bblmw.com/makerworld/model/USf66e9131e4543b/design/2024-12-24_7e099dc295a7e.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
     "tags": ["beholder", "d&d", "monster", "fantasy", "floating", "figurine"]
-  },
-  {
-    "title": "Cute Standing Stitch",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/USf1f45db7a3554f/design/2024-12-24_7e48a5415a2e8.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["stitch", "lilo and stitch", "cute", "figurine"]
-  },
-  {
-    "title": "Stitch figure",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US5724a352453593/design/2025-02-14_f6c072bf699f5.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["stitch", "lilo and stitch", "cute", "figurine"]
   },
   {
     "title": "BrawlStars - Duck leon",
@@ -2705,11 +2450,6 @@
     "tags": ["chibi", "chibis united", "goblin", "nurse", "fantasy", "monster", "figurine"]
   },
   {
-    "title": "sitting Stitch",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US86cb5a920b5bde/design/2024-12-21_fc39dbcea440b.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["stitch", "lilo and stitch", "sitting", "cute", "figurine"]
-  },
-  {
     "title": "Chibi Unite: Hell Hound",
     "image_url": "https://makerworld.bblmw.com/makerworld/model/USc01fd3a9b1fab4/design/2024-12-20_59597da5b8686.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
     "tags": ["chibi", "chibis united", "hellhound", "dog", "monster", "fantasy", "figurine"]
@@ -2753,16 +2493,6 @@
     "title": "Chibis Unite - Goblin Pack 1",
     "image_url": "https://makerworld.bblmw.com/makerworld/model/USeee0bde6c251ae/design/2024-12-18_a4a6419eb0633.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
     "tags": ["chibi", "chibis united", "goblin", "monster", "fantasy", "set", "figurine"]
-  },
-  {
-    "title": "bulbasaur ring",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US9ffe1577395a9c/design/2024-12-16_fd707120b94d7.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["bulbasaur", "pokemon", "ring", "jewelry", "fan art", "gaming", "cute"]
-  },
-  {
-    "title": "pikachu ring",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/USe5e3cdc29b328a/design/2024-12-16_1b93464517992.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["pikachu", "pokemon", "ring", "jewelry", "fan art", "gaming", "cute"]
   },
   {
     "title": "BrawlStars - Doug",
@@ -2818,11 +2548,6 @@
     "title": "All seeing ring",
     "image_url": "https://makerworld.bblmw.com/makerworld/model/US2aecc584104de4/design/2024-12-13_2a5aa72d1fd76.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
     "tags": ["ring", "jewelry", "eye", "all seeing eye", "fantasy"]
-  },
-  {
-    "title": "3 diffrent Stitch Rings",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/USfb8f3eb294d372/design/2024-12-13_63f081aa44ca5.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["ring", "jewelry", "stitch", "lilo and stitch", "fan art", "cute", "set"]
   },
   {
     "title": "Sobek Statue - egypt god",
@@ -2898,11 +2623,6 @@
     "title": "Robotic / Mech Anubis",
     "image_url": "https://makerworld.bblmw.com/makerworld/model/USd227f280254e0c/design/2024-12-07_12aa8d3babad4.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
     "tags": ["anubis", "robot", "mech", "egyptian", "sci-fi", "figurine", "mythology"]
-  },
-  {
-    "title": "Cool Deadpool Pop",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US838afc6928b30e/design/2024-12-06_762e3f406b4b7.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["deadpool", "marvel", "funko pop", "fan art", "superhero", "figurine"]
   },
   {
     "title": "cute christmas unicorn V2",
@@ -3293,11 +3013,6 @@
     "title": "cute polar bear",
     "image_url": "https://makerworld.bblmw.com/makerworld/model/US61d793bc5bc287/design/2024-11-18_c92fd29b504f3.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
     "tags": ["polar bear", "bear", "cute", "animal", "figurine"]
-  },
-  {
-    "title": "Venom pop",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/USe48a4f2835d728/design/2024-11-17_491c61e474396.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["venom", "marvel", "funko pop", "fan art", "superhero", "figurine"]
   },
   {
     "title": "Spatula_Sponge_Bob",
@@ -3705,11 +3420,6 @@
     "tags": ["puppy", "dog", "cute", "chubby", "animal", "figurine"]
   },
   {
-    "title": "Cute Pokemon Quartet Relief Wall Art",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US6f6cff39b43855/design/2025-06-12_e152a5c80f3e38.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["pokemon", "wall art", "relief", "pikachu", "charmander", "squirtle", "bulbasaur", "cute", "fan art"]
-  },
-  {
     "title": "Skull Relief Art",
     "image_url": "https://makerworld.bblmw.com/makerworld/model/US2db3b21dea5f0d/design/2025-06-11_b4be01b87ed118.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
     "tags": ["skull", "relief", "wall art", "gothic", "decor", "halloween"]
@@ -3773,11 +3483,6 @@
     "title": "Stout Dwarf Warrior with Battle Hammer",
     "image_url": "https://makerworld.bblmw.com/makerworld/model/USbf401f940e4f9c/design/2025-06-09_764c0c3500174.gif?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cjpeg",
     "tags": ["dwarf", "warrior", "hammer", "fantasy", "figurine"]
-  },
-  {
-    "title": "Zombie Deadpool",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US7f0a03669c3a44/design/2025-06-08_d3bf2ddd74e2b8.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["deadpool", "zombie", "marvel", "horror", "superhero", "fan art", "figurine"]
   },
   {
     "title": "Zombie Homer Simpson",
@@ -3868,11 +3573,6 @@
     "title": "Melted Fury – The Ooze Dragon",
     "image_url": "https://makerworld.bblmw.com/makerworld/model/USb12d5ce72e530e/design/2025-05-18_489cc3ddf60788.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
     "tags": ["dragon", "slime", "ooze", "monster", "fantasy", "figurine"]
-  },
-  {
-    "title": "Deadcool - Masked Mayhem Bust",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US769330b6c7d96c/design/2025-05-18_e2ff298d732f1.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["deadpool", "bust", "marvel", "fan art", "superhero", "sculpture"]
   },
   {
     "title": "Chubfluff the Lickin’ Lamb",
@@ -4110,11 +3810,6 @@
     "tags": ["duck", "rubber duck", "boss", "fantasy", "monster", "funny", "figurine"]
   },
   {
-    "title": "Mini spider man",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US4f59d12f6920af/design/2025-03-25_7753d0f835909.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["spiderman", "marvel", "superhero", "mini", "cute", "fan art", "figurine"]
-  },
-  {
     "title": "Unicorn drinking beer",
     "image_url": "https://makerworld.bblmw.com/makerworld/model/US49ea197a80c287/design/2025-03-25_81966a91bea35.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
     "tags": ["unicorn", "beer", "drinking", "funny", "fantasy", "figurine"]
@@ -4133,11 +3828,6 @@
     "title": "Duckbarian, Bringer of Quackageddon",
     "image_url": "https://makerworld.bblmw.com/makerworld/model/USd75598d7fb3f01/design/2025-03-25_6dc7f9cc944ae.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
     "tags": ["duck", "rubber duck", "barbarian", "fantasy", "d&d", "funny", "figurine"]
-  },
-  {
-    "title": "Mr.mime Pokémon",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/USd94c085d0bea7c/design/2025-03-22_9d5497b59282f.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["mr. mime", "pokemon", "gaming", "fan art", "figurine"]
   },
   {
     "title": "Lowpoly goblin warrior",
@@ -4188,11 +3878,6 @@
     "title": "Saber-toothed Cat",
     "image_url": "https://makerworld.bblmw.com/makerworld/model/US2f1cab2d82a7a9/design/2025-03-19_a9261310c1906.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
     "tags": ["saber-toothed tiger", "cat", "prehistoric", "animal", "figurine"]
-  },
-  {
-    "title": "Pokémon - pikachu",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/USb12862e67f771b/design/2025-03-18_5f286256bc77e.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["pikachu", "pokemon", "gaming", "fan art", "figurine", "cute"]
   },
   {
     "title": "Cute Mini devil",
@@ -4300,11 +3985,6 @@
     "tags": ["keychain", "cookie", "food", "cute"]
   },
   {
-    "title": "Pikachu Keychain",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US96e17fcb1b2464/design/2025-02-28_6b04ae6bfa6c5.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["keychain", "pikachu", "pokemon", "gaming", "fan art", "cute"]
-  },
-  {
     "title": "Chocolate bar key chain",
     "image_url": "https://makerworld.bblmw.com/makerworld/model/USa2a5c8c2ec767d/design/2025-02-28_9cc223f67ff45.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
     "tags": ["keychain", "chocolate", "food", "cute"]
@@ -4388,11 +4068,6 @@
     "title": "Rick’s Dark Rebirth",
     "image_url": "https://makerworld.bblmw.com/makerworld/model/US120da2f14b3add/design/2025-01-05_6c5c6aff8d0b1.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
     "tags": ["rick and morty", "rick sanchez", "bust", "sculpture", "fan art", "dark", "sci-fi", "cartoon"]
-  },
-  {
-    "title": "stitch figure",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US89a86d6654a9e7/design/2025-01-03_dd12e75c1979e.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["stitch", "lilo and stitch", "disney", "figure", "figurine", "cartoon", "alien", "fan art"]
   },
   {
     "title": "Low poly majestic Unicorn",
@@ -4583,21 +4258,6 @@
     "title": "banshee",
     "image_url": "https://makerworld.bblmw.com/makerworld/model/US6d67185e20e882/design/2024-12-20_bebe394ab203a.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
     "tags": ["banshee", "bust", "sculpture", "monster", "mythical creature", "fantasy", "horror"]
-  },
-  {
-    "title": "Deadpool",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US36692874f13893/design/2024-12-20_acc181258d4b4.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["deadpool", "marvel", "bust", "sculpture", "superhero", "antihero", "fan art", "comics"]
-  },
-  {
-    "title": "Wolverine bust",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US9ea672932081db/design/2024-12-20_03886a676196.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["wolverine", "marvel", "x-men", "bust", "sculpture", "superhero", "fan art", "comics"]
-  },
-  {
-    "title": "The Hulk",
-    "image_url": "https://makerworld.bblmw.com/makerworld/model/US49ec97e84cef20/design/2024-12-20_7f9ad109e9d07.jpg?x-oss-process=image%2Fresize%2Cw_800%2Fformat%2Cwebp",
-    "tags": ["hulk", "marvel", "avengers", "bust", "sculpture", "superhero", "fan art", "comics"]
   },
   {
     "title": "OctoDuck",

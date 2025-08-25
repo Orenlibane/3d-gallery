@@ -16,6 +16,11 @@
       --card-bg:#fff;
       --radius:12px;
       --shadow:0 4px 14px rgba(0,0,0,.08);
+
+      --wa:#25D366;
+      --wa-dark:#1ebe59;
+      --mail:#4e8df5;
+      --mail-dark:#3b75d6;
     }
     *{box-sizing:border-box;margin:0;padding:0}
     body{
@@ -64,12 +69,14 @@
       min-width:180px;padding:12px 14px;border-radius:var(--radius);
       border:1px solid #ccc;background:#fff;font-size:15px;
     }
-    button.primary{
+    button.primary, a.btn{
       padding:12px 22px;background:var(--primary);color:#fff;
       border:none;border-radius:var(--radius);cursor:pointer;
-      font-size:15px;font-weight:600;transition:background .25s;
+      font-size:15px;font-weight:600;transition:background .25s,opacity .25s;
+      text-decoration:none;display:inline-block
     }
     button.primary:hover{background:var(--primary-dark)}
+    a.btn:focus{outline:2px solid #0002}
 
     /* Gallery */
     .gallery{
@@ -105,9 +112,25 @@
     .modal-content img{width:100%;border-radius:calc(var(--radius) - 2px);margin-bottom:20px}
     .tag{display:inline-block;background:#ececec;padding:3px 8px;border-radius:16px;margin:4px 4px 0 0;font-size:.75rem}
 
+    /* Actions in View Modal */
+    .actions{
+      display:flex;flex-wrap:wrap;gap:12px;margin-top:16px
+    }
+    .btn-wa{background:var(--wa)}
+    .btn-wa:hover{background:var(--wa-dark)}
+    .btn-mail{background:var(--mail)}
+    .btn-mail:hover{background:var(--mail-dark)}
+
     /* Loader */
     .loader{text-align:center;margin-top:60px;font-size:1rem;color:#666;animation:pulse 1.5s infinite}
     @keyframes pulse{0%{opacity:.4}50%{opacity:1}100%{opacity:.4}}
+
+    /* Simple field stack for form */
+    #itemForm label{display:block;font-size:.9rem;margin:10px 0 6px;color:#333}
+    #itemForm input,#itemForm textarea{
+      width:100%;padding:10px 12px;border-radius:10px;border:1px solid #ccc;font-size:14px
+    }
+    #itemForm textarea{resize:vertical}
   </style>
 </head>
 <body>
@@ -116,11 +139,11 @@
   <main class="container">
     <section class="tools">
       <div class="search-wrapper">
-        <svg width="18" height="18" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+        <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
         <input id="searchInput" placeholder="Search models…" />
       </div>
 
-      <select id="tagFilter" multiple></select>
+      <select id="tagFilter" multiple aria-label="Filter by tags"></select>
 
       <button id="allBtn" class="primary" style="background:#888">All</button>
       <button id="addBtn" class="primary">Add Item</button>
@@ -131,42 +154,44 @@
   </main>
 
   <!-- View Modal -->
-  <div id="viewModal" class="modal">
+  <div id="viewModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="viewTitle">
     <div class="modal-content">
-      <button class="modal-close" onclick="closeModal('viewModal')">&times;</button>
-      <img id="viewImage" />
+      <button class="modal-close" onclick="closeModal('viewModal')" aria-label="Close">&times;</button>
+      <img id="viewImage" alt="" />
       <h2 id="viewTitle"></h2>
       <p id="viewDesc" style="margin:12px 0 18px;line-height:1.55"></p>
       <div id="viewTags"></div>
+
+      <!-- New contact actions -->
+      <div class="actions">
+        <a id="waLink" class="btn btn-wa" target="_blank" rel="noopener noreferrer" aria-label="Contact via WhatsApp">Contact via WhatsApp</a>
+        <a id="mailLink" class="btn btn-mail" target="_self" aria-label="Contact via Email">Contact via Email</a>
+      </div>
     </div>
   </div>
 
   <!-- Form Modal -->
-  <div id="formModal" class="modal">
+  <div id="formModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="formTitle">
     <div class="modal-content">
-      <button class="modal-close" onclick="closeModal('formModal')">&times;</button>
+      <button class="modal-close" onclick="closeModal('formModal')" aria-label="Close">&times;</button>
       <h2 id="formTitle">Add Item</h2>
 
       <form id="itemForm">
         <input id="itemIndex" type="hidden" />
 
-        <label>Title
-          <input id="itemTitle" required />
-        </label>
+        <label for="itemTitle">Title</label>
+        <input id="itemTitle" required />
 
-        <label>Image URL
-          <input id="itemImage" type="url" required />
-        </label>
+        <label for="itemImage">Image URL</label>
+        <input id="itemImage" type="url" required />
 
-        <label>Description
-          <textarea id="itemDesc" rows="3" required></textarea>
-        </label>
+        <label for="itemDesc">Description</label>
+        <textarea id="itemDesc" rows="3" required></textarea>
 
-        <label>Tags (comma-separated)
-          <input id="itemTags" />
-        </label>
+        <label for="itemTags">Tags (comma-separated)</label>
+        <input id="itemTags" />
 
-        <button class="primary">Save</button>
+        <button class="primary" style="margin-top:10px">Save</button>
       </form>
     </div>
   </div>
@@ -176,6 +201,8 @@
 <script type="module">
 /* -------- Config -------- */
 const API_ENDPOINT = '/items';   // Express endpoint
+const WHATSAPP_NUMBER_E164 = '972525938007'; // +972, no leading 0
+const EMAIL_TO = 'orenlibane@gmail.com';
 
 /* -------- State -------- */
 let data = [];
@@ -186,7 +213,9 @@ const dom = {
   tag    : $('tagFilter'),
   add    : $('addBtn'),
   all    : $('allBtn'),
-  loader : $('loader')
+  loader : $('loader'),
+  waLink : $('waLink'),
+  mailLink: $('mailLink')
 };
 let currentIndex = null;
 
@@ -242,11 +271,11 @@ function renderGallery() {
 
   data.forEach((item, idx) => {
     if (q && !item.title.toLowerCase().includes(q)) return;
-    if (sel.length && !sel.every(t => item.tags.includes(t))) return;
+    if (sel.length && !sel.every(t => (item.tags||[]).includes(t))) return;
 
     const card = document.createElement('div');
     card.className = 'card';
-    card.innerHTML = `<img src=\"${item.image_url}\" alt=\"${item.title}\"><h3>${item.title}</h3>`;
+    card.innerHTML = `<img src="${item.image_url}" alt="${escapeHtml(item.title)}"><h3>${escapeHtml(item.title)}</h3>`;
     card.onclick = () => openView(idx);
     dom.gallery.appendChild(card);
   });
@@ -268,10 +297,43 @@ window.closeModal = closeModal;  // expose for inline onclick
 function openView(idx) {
   currentIndex = idx;
   const it = data[idx];
+
   $('viewImage').src          = it.image_url;
-  $('viewTitle').textContent  = it.title;
-  $('viewDesc').textContent   = it.description;
-  $('viewTags').innerHTML     = (it.tags || []).map(t => `<span class=\"tag\">${t}</span>`).join('');
+  $('viewImage').alt          = it.title || 'Model image';
+  $('viewTitle').textContent  = it.title || 'Untitled';
+  $('viewDesc').textContent   = it.description || '';
+  $('viewTags').innerHTML     = (it.tags || []).map(t => `<span class="tag">${escapeHtml(t)}</span>`).join('');
+
+  // Build dynamic inquiry message
+  const modelTitle = it.title || 'Untitled Model';
+  const imageRef   = it.image_url || '';
+  const refLine    = `Model: "${modelTitle}"\nImage/Reference: ${imageRef}`;
+  const template   = [
+    'Hi Dream Makers 3D,',
+    "I'm interested in ordering this model.",
+    refLine,
+    '',
+    'Questions:',
+    '- Price by size options?',
+    '- Available materials/resins and finishes?',
+    '- Estimated print time and shipping?',
+    '',
+    'My preferred size: ____ (height / scale)',
+    'Color/finish notes: ____',
+    'Deadline (if any): ____',
+    '',
+    'Thanks!'
+  ].join('\n');
+
+  // WhatsApp deep-link
+  const waURL = `https://wa.me/${WHATSAPP_NUMBER_E164}?text=${encodeURIComponent(template)}`;
+  dom.waLink.href = waURL;
+
+  // Email mailto
+  const subject = `Model inquiry: ${modelTitle}`;
+  const mailto  = `mailto:${encodeURIComponent(EMAIL_TO)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(template)}`;
+  dom.mailLink.href = mailto;
+
   openModal('viewModal');
 }
 
@@ -303,6 +365,13 @@ function saveItem(e) {
   closeModal('formModal');
   renderTags();
   renderGallery();
+}
+
+/* -------- Utils -------- */
+function escapeHtml(str=''){
+  return str.replace(/[&<>"']/g, s => ({
+    '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'
+  }[s]));
 }
 </script>
 </body>
