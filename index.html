@@ -164,8 +164,8 @@
 
       <!-- New contact actions -->
       <div class="actions">
-        <a id="waLink" class="btn btn-wa" target="_blank" rel="noopener noreferrer" aria-label="Contact via WhatsApp">Contact via WhatsApp</a>
-        <a id="mailLink" class="btn btn-mail" target="_self" aria-label="Contact via Email">Contact via Email</a>
+        <a id="waLink" class="btn btn-wa" target="_blank" rel="noopener noreferrer" aria-label="צור קשר בווטסאפ">Contact via WhatsApp</a>
+        <a id="mailLink" class="btn btn-mail" target="_self" aria-label="צור קשר במייל">Contact via Email</a>
       </div>
     </div>
   </div>
@@ -310,19 +310,16 @@ function openView(idx) {
   const refLine    = `Model: "${modelTitle}"\nImage/Reference: ${imageRef}`;
   const template   = [
     'Hi Dream Makers 3D,',
-    "I'm interested in ordering this model.",
+    "אני מעוניין להזמין את המודל הבא.",
     refLine,
     '',
     'Questions:',
-    '- Price by size options?',
-    '- Available materials/resins and finishes?',
-    '- Estimated print time and shipping?',
+    '-אשמח לדעת פרטים על המודל',
     '',
-    'My preferred size: ____ (height / scale)',
-    'Color/finish notes: ____',
-    'Deadline (if any): ____',
+    'הגודל המועדף',
+    'צבע',
     '',
-    'Thanks!'
+    'תודה!'
   ].join('\n');
 
   // WhatsApp deep-link

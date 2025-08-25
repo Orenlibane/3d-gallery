@@ -24,7 +24,7 @@ app.get("/items", async (_req, res) => {
     // הוסף זמנית בתוך try:
 
     // read fresh copy each time so edits to items.json are reflected immediately
-    const jsonPath = path.join(__dirname, "assets", "items.json");
+    const jsonPath = path.join(__dirname, "assets", "items-fix.json");
     console.log("JSON path →", jsonPath);   // <<< שורת בדיקה
     const raw = await readFile(jsonPath, "utf8");
     res.type("application/json").send(raw);
